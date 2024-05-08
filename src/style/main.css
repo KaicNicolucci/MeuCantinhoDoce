@@ -1,0 +1,224 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  background-color: #f6f7c4;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px #f6d6d6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+nav .up {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: #7BD3EA;
+  padding: 5px;
+  margin-left: 0;
+}
+
+nav .up a {
+  margin-right: 0;
+}
+
+nav .carrinho {
+  height: 35px;
+}
+
+.nav-buttons ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-buttons li {
+  margin-right: 30px;
+}
+
+.nav-buttons a {
+  color: #7BD3EA;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+  margin: 8px;
+}
+
+.nav-buttons a:hover {
+  background-color: #f6d6d6;
+  border-radius: 8px;
+}
+
+.carrossel {
+  width: 100%;
+  margin: 0;
+}
+
+.carrossel img {
+  height: 90vh;
+}
+
+.produtos {
+  width: 100%;
+  background-color: #f6f7c4;
+  padding: 8px;
+}
+
+.produtos .container {
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.name-section h2 {
+  margin-left: 0;
+  margin-bottom: 8px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.produto-card {
+  overflow: hidden;
+  width: 18%;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #A1EEBD;
+  margin: 2px;
+  margin-bottom: 10px;
+}
+
+.produto-card img {
+  height: 25vh;
+}
+
+.produto-nome {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.produto-valor {
+  font-weight: bold;
+}
+
+.button-id {
+  margin-top: 5px;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+  background-color: #A1EEBD;
+  color: #7BD3EA;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button-id:hover {
+  cursor: pointer;
+  color: #f6d6d6;
+}
+
+.contatos {
+  background-color: #A1EEBD;
+  padding: 5px;
+}
+
+.contatos .container {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media {
+  margin-left: 0;
+}
+
+.img-social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #7BD3EA;
+}
+
+.form {
+  margin-right: 0;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form label {
+  margin-left: 0;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+form input {
+  margin-bottom: 12px;
+  width: 100%;
+  padding: 2px;
+}
+
+form textarea {
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.form button {
+  margin-left: auto;
+  margin-top: 12px;
+  font-size: 24px;
+  padding: 4px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f6f7c4;
+  color: #7BD3EA;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.form button:hover {
+  background-color: #7BD3EA;
+  color: #f6f7c4;
+}/*# sourceMappingURL=main.css.map */

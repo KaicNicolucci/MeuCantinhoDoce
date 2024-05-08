@@ -1,0 +1,41 @@
+@import '../abstract/variaveis';
+
+.produto-card{
+    overflow: hidden;
+    width: 18%;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid $cor-secundaria;
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
+
+
+.produto-card img{
+    height: 25vh;
+}
+
+.produto-nome{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.produto-valor{
+    font-weight: bold;
+}
+
+.button-id{
+    margin-top: 5px;
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    background-color: $cor-secundaria;
+    color: $cor-texto;
+    font-weight: bold;
+    font-size: 16px
+}.button-id:hover{
+    cursor: pointer;
+    color: $cor-principal;
+}

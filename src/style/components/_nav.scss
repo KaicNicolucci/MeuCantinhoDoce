@@ -1,0 +1,59 @@
+@import '../abstract/base';
+@import '../abstract/variaveis';
+
+nav{
+    width: 100%;
+    background-color: $cor-fundo;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px $cor-principal ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav .up{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    color: $cor-texto;
+    padding: 5px;
+    margin-left: 0;
+}
+
+nav .up a{
+    margin-right: 0;
+}
+
+nav .carrinho{
+    height: 35px;
+}
+
+.nav-buttons ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+} .nav-buttons li{
+    margin-right: 30px;
+}
+
+.nav-buttons a{
+    color: $cor-texto;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    margin: 8px;
+} .nav-buttons a:hover{
+    background-color: $cor-principal;
+    border-radius: 8px;
+}

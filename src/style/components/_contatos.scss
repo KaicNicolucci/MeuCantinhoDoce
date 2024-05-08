@@ -1,0 +1,84 @@
+@import '../abstract/variaveis';
+
+
+.contatos{
+    background-color: $cor-secundaria;
+    padding: 5px;
+}
+
+.contatos .container{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media{
+    margin-left: 0;
+}
+
+.img-social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: $cor-texto;
+}
+
+
+
+
+
+
+
+.form{
+    margin-right: 0;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form label{
+    margin-left: 0;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+form input{
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 2px;
+}
+
+form textarea{
+    width: 100%;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.form button{
+    margin-left: auto;
+    margin-top: 12px;
+    font-size: 24px;
+    padding: 4px;
+    border: none;
+    border-radius: 8px;
+    background-color: $cor-fundo;
+    color: $cor-texto;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}.form button:hover{
+    background-color: $cor-texto;
+    color: $cor-fundo;
+}

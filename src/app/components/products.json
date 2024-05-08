@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "nome": "Fini Tubinho Azedinho",
+        "valor": 6.59,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_613182-MLB75685440048_042024-O.webp"
+    },
+    {
+        "id": 1,
+        "nome": "Fini Tubinho Gelatina",
+        "valor": 7.98,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_792436-MLU72578543526_112023-O.webp"
+    },
+    {
+        "id": 2,
+        "nome": "Fini Dentadura",
+        "valor": 9.38,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_614606-MLU72641779159_112023-O.webp"
+    },
+    {
+        "id": 3,
+        "nome": "Fini Beijos",
+        "valor": 8.93,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_912651-MLU72831477799_112023-O.webp"
+    },
+    {
+        "id": 4,
+        "nome": "Fini Minhocas de Gelatina",
+        "valor": 8.98,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_699112-MLB42757060297_072020-O.webp"
+    },
+    {
+        "id": 5,
+        "nome": "Chocolate Twix",
+        "valor": 20.12,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_600220-MLB54591857490_032023-O.webp"
+    },
+    {
+        "id": 6,
+        "nome": "Chocolate Trento",
+        "valor": 32.07,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_640292-MLU74533106407_022024-O.webp"
+    },
+    {
+        "id": 7,
+        "nome": "Chocolate Stikadinho",
+        "valor": 18.62,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_816097-MLB45240396053_032021-O.webp"
+    },
+    {
+        "id": 8,
+        "nome": "Recheadinho Bauducco",
+        "valor": 16.99,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_958279-MLU74225012059_012024-O.webp"
+    },
+    {
+        "id": 9,
+        "nome": "Chocolate Confete",
+        "valor": 26.94,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_762346-MLU73965797620_012024-O.webp"
+    }
+]
