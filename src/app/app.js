@@ -6,6 +6,9 @@ $(document).ready(function(){
         adaptiveHeight: true,
         arrows: false
     });
+    $(".carrinho").click(function(){
+        $(this).animate({left: '-200px'}, 'slow');
+    });
 });
 
 iniciarLoja()

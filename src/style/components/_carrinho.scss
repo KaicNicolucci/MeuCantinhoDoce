@@ -1,0 +1,15 @@
+@import '../abstract/variaveis';
+
+.none{
+    display: none;
+}
+
+.cart{
+    position: fixed;
+    background-color: #fff;
+    z-index: 1000;
+    height: 100%;
+    width: 30%;
+    top: 0;
+    right: 0;
+}
