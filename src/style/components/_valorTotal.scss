@@ -1,0 +1,26 @@
+@import '../abstract/variaveis';
+
+.valor-total{
+    background-color: $cor-secundaria;
+}
+
+.valor-total span{
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+}
+
+.valor-total button{
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    color: $cor-texto;
+    background-color: $cor-fundo;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 18px;
+}.valor-total button:hover{
+    color: $cor-fundo;
+    background-color: $cor-texto;
+}

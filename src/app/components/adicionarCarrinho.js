@@ -9,8 +9,6 @@ export function adicionarCarrinho(id, nome, valor, img) {
 
     carrinho.push(produto);
 
-    console.log(carrinho);
-
     carrinhoView(carrinho);
 
 }

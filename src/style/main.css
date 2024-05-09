@@ -256,19 +256,28 @@ form textarea {
   cursor: pointer;
 }
 
+.valor-total {
+  border-top: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .produtos-view {
   width: 100%;
   margin-left: 0;
 }
 
 .inner-produtos {
-  display: flex;
-  flex-wrap: wrap;
   margin-left: 0;
   text-align: center;
+  height: 480px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .carrinho-card {
+  height: 100px;
   margin: 0;
   width: 100%;
   display: flex;
@@ -281,4 +290,31 @@ form textarea {
 
 .carrinho-card img {
   height: 80px;
+}
+
+.valor-total {
+  background-color: #A1EEBD;
+}
+
+.valor-total span {
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+}
+
+.valor-total button {
+  padding: 4px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  color: #7BD3EA;
+  background-color: #f6f7c4;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.valor-total button:hover {
+  color: #f6f7c4;
+  background-color: #7BD3EA;
 }/*# sourceMappingURL=main.css.map */

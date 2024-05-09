@@ -6,13 +6,15 @@
 }
 
 .inner-produtos{
-    display: flex;
-    flex-wrap: wrap;
     margin-left: 0;
     text-align: center;
+    height: 480px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .carrinho-card{
+    height: 100px;
     margin: 0;
     width: 100%;
     display: flex;

@@ -1,9 +1,12 @@
 import { deletarItem } from "../components/deletarItem.js";
+import { valorTotal } from "../components/valorTotal.js";
 
 export function carrinhoView(Array){
 
     const listView = document.querySelector('.inner-produtos')
     listView.innerHTML = '';
+    const innerValor = document.querySelector('.inner-valor')
+    innerValor.innerHTML = '';
 
 
     Array.map((key, i)=>{
@@ -30,7 +33,7 @@ export function carrinhoView(Array){
 
         produtoImg.src = key.img;
         produtoNome.textContent = key.nome;
-        produtoValor.textContent = `R$${key.valor}`;
+        produtoValor.textContent = `R$${key.calcularTotal().toFixed(2)}`;
         quantidade.textContent = key.quantidade;
         btnMais.textContent = '+'
         btnMenos.textContent = '-'
@@ -57,10 +60,11 @@ export function carrinhoView(Array){
         produto.appendChild(hr);
         listView.appendChild(produto);
 
+        
+        
     })
 
+    valorTotal(Array)
     
-    
-
 }
 
