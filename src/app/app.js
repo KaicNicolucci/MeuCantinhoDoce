@@ -7,7 +7,10 @@ $(document).ready(function(){
         arrows: false
     });
     $(".carrinho").click(function(){
-        $(this).animate({left: '-200px'}, 'slow');
+        $(".cart").slideToggle(700);
+    });
+    $(".fechar").click(function(){
+        $(".cart").slideUp(700);
     });
 });
 

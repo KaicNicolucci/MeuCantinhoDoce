@@ -6,10 +6,28 @@
 
 .cart{
     position: fixed;
-    background-color: #fff;
+    background-color: $cor-secundaria;
     z-index: 1000;
     height: 100%;
     width: 30%;
     top: 0;
     right: 0;
+    border-left: 1px solid black;
+}
+
+.cart .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.fechar{
+    margin-right: 0;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
