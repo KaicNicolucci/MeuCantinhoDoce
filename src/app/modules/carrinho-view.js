@@ -5,8 +5,7 @@ export function carrinhoView(Array){
 
     const listView = document.querySelector('.inner-produtos')
     listView.innerHTML = '';
-    const innerValor = document.querySelector('.inner-valor')
-    innerValor.innerHTML = '';
+    
 
 
     Array.map((key, i)=>{
