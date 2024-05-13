@@ -28,11 +28,10 @@ export function carrinhoView(Array){
         btnMenos.className = 'btn-menos'
         const btnDelete = document.createElement('button');
         btnDelete.className = 'btn-delete'
-        const hr = document.createElement('hr');
 
         produtoImg.src = key.img;
         produtoNome.textContent = key.nome;
-        produtoValor.textContent = `R$${key.calcularTotal().toFixed(2)}`;
+        produtoValor.textContent = `Valor Total: R$${key.calcularTotal().toFixed(2)}`;
         quantidade.textContent = key.quantidade;
         btnMais.textContent = '+'
         btnMenos.textContent = '-'
@@ -56,7 +55,6 @@ export function carrinhoView(Array){
         produto.appendChild(quantidade);
         produto.appendChild(btnMenos);
         produto.appendChild(btnDelete);
-        produto.appendChild(hr);
         listView.appendChild(produto);
 
         
