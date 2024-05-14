@@ -8,23 +8,49 @@
 .inner-produtos{
     margin-left: 0;
     text-align: center;
-    height: 480px;
+    height: 85vh;
     overflow-x: hidden;
     overflow-y: auto;
 }
 
 .carrinho-card{
     height: 100px;
-    margin: 0;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4px;
     background-color: #fff;
     margin: 4px;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .carrinho-card img{
     height: 80px;
+    display: block;
+}
+
+.quantidade, .btn-mais, .btn-menos{
+    display: inline;
+}
+
+.nome-produto, .valor-produto{
+    font-weight: bold;
+}
+
+.btn-mais, .btn-menos{
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.btn-delete{
+    padding: 2px;
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }
